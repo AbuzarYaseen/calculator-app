@@ -43,3 +43,28 @@ button {
   box-shadow: 6px 6px 10px rgba(190, 97, 97, 1),
     -6px -6px 10px rgba(190, 97, 97, 1);
 }
+
+@media (max-width: 768px) {
+  .cal {
+    padding: 10px;
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .cal {
+    padding: 5px;
+  }
+
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
